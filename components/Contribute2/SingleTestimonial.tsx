@@ -53,7 +53,11 @@ const SingleTestimonial = ({
         </div>
         <div className="mt-auto flex w-full justify-end">
           <Image
-            src="/images/lines/arrow.svg"
+            src={`${
+              process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+                ? process.env.NEXT_PUBLIC_BASE_PATH
+                : ''
+            }/images/lines/arrow.svg`}
             alt="logo"
             width={200}
             height={50}

@@ -27,7 +27,11 @@ const Hero2 = () => {
           </div>
         </div>
         <Image
-          src="/images/lines/ForkLines.svg"
+          src={`${
+            process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+              ? process.env.NEXT_PUBLIC_BASE_PATH
+              : ''
+          }/images/lines/ForkLines.svg`}
           alt="logo"
           width={100}
           height={20}

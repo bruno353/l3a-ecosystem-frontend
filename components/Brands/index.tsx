@@ -6,31 +6,51 @@ const brandsData: Brand[] = [
     id: 1,
     name: 'UIdeck',
     href: 'https://uideck.com',
-    image: '/images/brands/uideck.svg',
+    image: `${
+      process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+        ? process.env.NEXT_PUBLIC_BASE_PATH
+        : ''
+    }/images/brands/uideck.svg`,
   },
   {
     id: 2,
     name: 'Tailgrids',
     href: 'https://tailgrids.com',
-    image: '/images/brands/tailgrids.svg',
+    image: `${
+      process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+        ? process.env.NEXT_PUBLIC_BASE_PATH
+        : ''
+    }/images/brands/tailgrids.svg`,
   },
   {
     id: 3,
     name: 'Lineicons',
     href: 'https://lineicons.com',
-    image: '/images/brands/lineicons.svg',
+    image: `${
+      process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+        ? process.env.NEXT_PUBLIC_BASE_PATH
+        : ''
+    }/images/brands/lineicons.svg`,
   },
   {
     id: 4,
     name: 'GrayGrids',
     href: 'https://graygrids.com',
-    image: '/images/brands/graygrids.svg',
+    image: `${
+      process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+        ? process.env.NEXT_PUBLIC_BASE_PATH
+        : ''
+    }/images/brands/graygrids.svg`,
   },
   {
     id: 5,
     name: 'TailAdmin',
     href: 'https://tailadmin.com',
-    image: '/images/brands/tailadmin.svg',
+    image: `${
+      process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+        ? process.env.NEXT_PUBLIC_BASE_PATH
+        : ''
+    }/images/brands/tailadmin.svg`,
   },
 ]
 

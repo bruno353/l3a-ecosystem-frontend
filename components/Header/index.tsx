@@ -51,7 +51,11 @@ const Header = () => {
           <div className="flex w-full items-center justify-between lg:gap-12 2xl:gap-24">
             <Link href="/" className="ml-12">
               <Image
-                src="/images/logo/l3a-logo.svg"
+                src={`${
+                  process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+                    ? process.env.NEXT_PUBLIC_BASE_PATH
+                    : ''
+                }/images/logo/l3a-logo.svg`}
                 alt="logo"
                 width={200}
                 height={45}

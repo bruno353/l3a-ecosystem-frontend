@@ -31,14 +31,22 @@ const Hero4 = () => {
           </div>
         </div>
         <Image
-          src="/images/lines/Line3.svg"
+          src={`${
+            process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+              ? process.env.NEXT_PUBLIC_BASE_PATH
+              : ''
+          }/images/lines/Line3.svg`}
           alt="logo"
           width={100}
           height={20}
           className="mx-auto mb-4 h-20 w-1 lg:mt-5 lg:mb-1 lg:h-52"
         />
         <Image
-          src="/images/lines/Line3.svg"
+          src={`${
+            process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+              ? process.env.NEXT_PUBLIC_BASE_PATH
+              : ''
+          }/images/lines/Line3.svg`}
           alt="logo"
           width={100}
           height={20}

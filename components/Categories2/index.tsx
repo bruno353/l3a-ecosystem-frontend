@@ -29,7 +29,11 @@ const Categories2 = () => {
         'Join us as we expand our goal of Deeplink to advance the smart contract ecosystems. The Deeplink developer toolkit will allow developers and data scientists to build, train, and deploy data models. Join us as we expand our goal of Deeplink to advance the smart contract ecosystems. The Deeplink developer toolkit will allow developers and data scientists to build, train, and deploy data models.',
     },
     {
-      image: '/images/categories/code.svg',
+      image: `${
+        process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+          ? process.env.NEXT_PUBLIC_BASE_PATH
+          : ''
+      }/images/categories/code.svg`,
       title: 'L3A Core',
       description:
         'Join us as we expand our goal of Deeplink to advance the smart contract ecosystems. The Deeplink developer toolkit will allow developers and data scientists to build, train, and deploy data models. Join us as we expand our goal of Deeplink to advance the smart contract ecosystems. The Deeplink developer toolkit will allow developers and data scientists to build, train, and deploy data models.',
@@ -72,7 +76,11 @@ const Categories2 = () => {
               {hasLineSvg ? (
                 <div className="relative items-start rounded-md bg-white  text-xs  md:flex lg:text-sm">
                   <Image
-                    src="/images/lines/Line3.svg"
+                    src={`${
+                      process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+                        ? process.env.NEXT_PUBLIC_BASE_PATH
+                        : ''
+                    }/images/lines/Line3.svg`}
                     alt="logo"
                     width={200}
                     height={50}

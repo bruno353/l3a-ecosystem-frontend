@@ -15,7 +15,11 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/hero/data-people.svg"
+                  src={`${
+                    process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+                      ? process.env.NEXT_PUBLIC_BASE_PATH
+                      : ''
+                  }/images/hero/data-people.svg`}
                   alt="logo"
                   width={100}
                   height={20}

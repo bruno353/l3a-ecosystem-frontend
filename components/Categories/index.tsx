@@ -11,7 +11,11 @@ const Categories = () => {
       <div className="container">
         <div className="relative mb-5 items-start rounded-md bg-white p-4 text-xs md:mb-10 md:flex md:px-20 lg:text-sm xl:mb-24">
           <Image
-            src="/images/blockchainLogo.svg"
+            src={`${
+              process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+                ? process.env.NEXT_PUBLIC_BASE_PATH
+                : ''
+            }/images/blockchainLogo.svg`}
             alt="logo"
             width={200}
             height={50}
@@ -45,7 +49,11 @@ const Categories = () => {
         </div>
         <div className="relative mb-5 items-start rounded-md bg-white p-4 text-xs md:mb-10 md:flex md:px-20 lg:text-sm xl:mb-24">
           <Image
-            src="/images/blockchainLogo.svg"
+            src={`${
+              process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+                ? process.env.NEXT_PUBLIC_BASE_PATH
+                : ''
+            }/images/blockchainLogo.svg`}
             alt="logo"
             width={200}
             height={50}
@@ -80,7 +88,11 @@ const Categories = () => {
         </div>
         <div className="relative mb-5 items-start rounded-md bg-white p-4 text-xs md:mb-10 md:flex md:px-20 lg:text-sm xl:mb-24">
           <Image
-            src="/images/blockchainLogo.svg"
+            src={`${
+              process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+                ? process.env.NEXT_PUBLIC_BASE_PATH
+                : ''
+            }/images/blockchainLogo.svg`}
             alt="logo"
             width={200}
             height={50}
@@ -114,7 +126,11 @@ const Categories = () => {
         </div>
         <div className="relative mb-5 items-start rounded-md bg-white p-4 text-xs md:mb-10 md:flex md:px-20 lg:text-sm xl:mb-24">
           <Image
-            src="/images/blockchainLogo.svg"
+            src={`${
+              process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+                ? process.env.NEXT_PUBLIC_BASE_PATH
+                : ''
+            }/images/blockchainLogo.svg`}
             alt="logo"
             width={200}
             height={50}

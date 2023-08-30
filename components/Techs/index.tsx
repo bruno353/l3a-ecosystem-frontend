@@ -10,14 +10,22 @@ const Techs = () => {
             data-wow-delay=".1s"
           >
             <Image
-              src="/images/techs/superNode.svg"
+              src={`${
+                process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+                  ? process.env.NEXT_PUBLIC_BASE_PATH
+                  : ''
+              }/images/techs/superNode.svg`}
               alt="logo"
               width={100}
               height={20}
               className="mx-auto mb-2 ml-64 w-48 transition-all duration-200 hover:z-20  hover:scale-110"
             />
             <Image
-              src="/images/techs/superNode.svg"
+              src={`${
+                process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+                  ? process.env.NEXT_PUBLIC_BASE_PATH
+                  : ''
+              }/images/techs/superNode.svg`}
               alt="logo"
               width={100}
               height={20}
@@ -31,7 +39,11 @@ const Techs = () => {
             data-wow-delay=".1s"
           >
             <Image
-              src="/images/techs/l3a-logo-variation.svg"
+              src={`${
+                process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+                  ? process.env.NEXT_PUBLIC_BASE_PATH
+                  : ''
+              }/images/techs/l3a-logo-variation.svg`}
               alt="logo"
               width={100}
               height={20}
@@ -45,14 +57,22 @@ const Techs = () => {
             data-wow-delay=".1s"
           >
             <Image
-              src="/images/techs/api.svg"
+              src={`${
+                process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+                  ? process.env.NEXT_PUBLIC_BASE_PATH
+                  : ''
+              }/images/techs/api.svg`}
               alt="logo"
               width={100}
               height={20}
               className="mx-auto mb-40 mr-96 w-40 transition-all duration-200 hover:z-20 hover:scale-110"
             />
             <Image
-              src="/images/techs/api.svg"
+              src={`${
+                process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+                  ? process.env.NEXT_PUBLIC_BASE_PATH
+                  : ''
+              }/images/techs/api.svg`}
               alt="logo"
               width={100}
               height={20}
@@ -63,7 +83,11 @@ const Techs = () => {
       </div>
       <div className="-ml-40 flex w-full justify-center lg:scale-x-75 lg:scale-y-110 xl:-ml-[230px] xl:scale-115 2xl:-ml-[229px] 2xl:scale-115">
         <Image
-          src="/images/lines/CurvedLineFixed.svg"
+          src={`${
+            process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+              ? process.env.NEXT_PUBLIC_BASE_PATH
+              : ''
+          }/images/lines/CurvedLineFixed.svg`}
           alt="Curved line vector"
           width={405}
           height={644}
