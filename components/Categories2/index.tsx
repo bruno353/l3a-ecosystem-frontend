@@ -5,25 +5,37 @@ import Image from 'next/image'
 const Categories2 = () => {
   const categories = [
     {
-      image: '/images/categories/l3aCore.svg',
+      image: `${
+        process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+          ? process.env.NEXT_PUBLIC_BASE_PATH
+          : ''
+      }/images/categories/l3aCore.svg`,
       title: 'L3A Core',
       description:
         'Join us as we expand our goal of Deeplink to advance the smart contract ecosystems. The Deeplink developer toolkit will allow developers and data scientists to build, train, and deploy data models. Join us as we expand our goal of Deeplink to advance the smart contract ecosystems.The Deeplink developer toolkit will allow developers and data scientists to build, train, and deploy data models. Join us as we expand our goal of Deeplink to advance the smart contract ecosystems.',
     },
     {
-      image: '/images/categories/dojoSystems.svg',
+      image: `${
+        process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+          ? process.env.NEXT_PUBLIC_BASE_PATH
+          : ''
+      }/images/categories/dojoSystems.svg`,
       title: 'Transparency & governence',
       description:
         'toolkit will allow developers and data scientists to build, train, and deploy data models. Join us as we expand our goal of Deeplink to advance the smart contract ecosystems. The Deeplink developer toolkit will allow developers and data scientists to build, train, and deploy data models. Join us as we expand our goal of Deeplink to advance the smart',
     },
     {
-      image: '/images/categories/infrastructure.svg',
+      image: `${
+        process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+          ? process.env.NEXT_PUBLIC_BASE_PATH
+          : ''
+      }/images/categories/infrastructure.svg`,
       title: 'L3A Core',
       description:
         'Join us as we expand our goal of Deeplink to advance the smart contract ecosystems. ​ The Deeplink developer toolkit will allow developers and data scientists to build, train, and deploy data models.',
     },
     {
-      image: '/images/categories/hardware.svg',
+      image: '@/public/images/categories/hardware.svg',
       title: 'L3A Core',
       description:
         'Join us as we expand our goal of Deeplink to advance the smart contract ecosystems. The Deeplink developer toolkit will allow developers and data scientists to build, train, and deploy data models. Join us as we expand our goal of Deeplink to advance the smart contract ecosystems. The Deeplink developer toolkit will allow developers and data scientists to build, train, and deploy data models.',
