@@ -1,11 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
 
-const Hero = () => {
+const Hero = ({ scrollIntoView }) => {
+  const handleClick = () => {
+    scrollIntoView.current.scrollIntoView({ behavior: 'smooth' })
+  }
   return (
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden bg-white pt-[50px] text-[#000000] lg:pt-[110px]"
+        className="relative z-10 overflow-hidden bg-white pt-[50px] pb-[10px] text-[#000000] lg:pt-[110px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
@@ -38,6 +41,14 @@ const Hero = () => {
                   Help build the decentralized data infrastructure and standards
                   across Web3
                 </p> */}
+                <div className="mt-[40px] lg:mt-[80px]">
+                  <a
+                    onClick={handleClick}
+                    className=" cursor-pointer rounded-[5px] bg-[#0354EC] py-[9.5px] px-[18px] text-[12px] font-bold !leading-[19px] text-white hover:bg-[#0447c5] lg:text-[18px]"
+                  >
+                    Join the ecosystem
+                  </a>
+                </div>
               </div>
             </div>
           </div>

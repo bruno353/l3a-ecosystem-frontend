@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <>
       <ScrollUp />
-      <Hero />
+      <Hero scrollIntoView={contributorsRef} />
       <Hero2 />
       <RevealWrapper>
         <Hero3 />
