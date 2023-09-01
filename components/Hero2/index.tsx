@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const Hero2 = () => {
   return (
-    <section className="relative inset-x-0 z-10 mx-auto mt-0 w-full max-w-[400px] px-8 lg:mt-[145px] lg:max-w-[1340px] lg:px-0">
+    <section className="relative inset-x-0 z-10 mx-auto mt-[60px] w-full max-w-[400px] px-8 lg:mt-[145px] lg:max-w-[1340px] lg:px-0">
       <div className="flex w-full flex-col items-start justify-between gap-[32px] bg-white lg:flex-row lg:gap-0">
         <div className="flex w-full items-center justify-center text-center text-[#000000]">
           <div
@@ -18,7 +18,7 @@ const Hero2 = () => {
             <h1 className="mx-auto mt-2 w-[310px] text-2xl font-bold leading-none tracking-tight lg:w-[453px] lg:text-[2.7rem]">
               Today Data & internet infrastructures are centralized.
             </h1>
-            <p className="mx-auto mt-2 w-[310px] text-sm font-light !leading-[30px] tracking-tight lg:mt-4 lg:w-[453px] lg:text-[10px] xl:text-lg">
+            <p className="mx-auto mt-2 w-[310px] text-sm font-light tracking-tight lg:mt-4 lg:w-[453px] lg:text-[10px] lg:!leading-[30px] xl:text-lg">
               Large data players such as Amazon, Google, Facebook, and Microsoft
               control over 85% of Internet data and infrastructure, effectively
               becoming data monopolies. They control more than 100 zettabytes of
@@ -53,7 +53,7 @@ const Hero2 = () => {
               Without reliable, affordable data and infrastructures, the web3
               industry cannot scale.
             </h1>
-            <p className="mx-auto mt-2 w-[310px] text-sm font-light !leading-[30px] tracking-tight lg:mt-4 lg:w-[525px] lg:text-lg">
+            <p className="mx-auto mt-2 w-[310px] text-sm font-light tracking-tight lg:mt-4 lg:w-[525px] lg:text-lg lg:!leading-[30px]">
               The scalability and staggering growth of major internet industries
               such as social media, e-commerce, and sharing economies like Uber
               can be attributed to affordable IT data infrastructure and

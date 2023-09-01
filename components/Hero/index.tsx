@@ -5,7 +5,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden bg-white pt-[110px] text-[#000000]"
+        className="relative z-10 overflow-hidden bg-white pt-[50px] text-[#000000] lg:pt-[110px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
@@ -14,17 +14,17 @@ const Hero = () => {
                 className="wow fadeInUp mx-auto text-center"
                 data-wow-delay=".2s"
               >
-                <div className="text-[60px] font-normal !leading-[80px] -tracking-wider">
+                <div className="text-[35px] font-normal !leading-[40px] -tracking-wider lg:text-[60px] lg:!leading-[80px]">
                   Join our ecosystem to build <br />
-                  <span className="text-[80px] font-bold">
+                  <span className="text-[40px] font-bold lg:text-[80px]">
                     open data infrastructure for{' '}
                   </span>{' '}
                   <br />
-                  <span className="text-[80px] font-bold">
+                  <span className="text-[40px] font-bold lg:text-[80px]">
                     without a middleman.
                   </span>
                 </div>
-                <div className="mt-[35px] text-[30px] font-medium !leading-[36px]  -tracking-wider text-[#505050]">
+                <div className="mt-[20px] text-[17px] font-medium -tracking-wider text-[#505050] lg:mt-[35px]  lg:text-[30px] lg:!leading-[36px]">
                   No matter your role - developer, user, academic, partner - you{' '}
                   <br />
                   have a part to play in Openmesh's mission. Get involved and{' '}

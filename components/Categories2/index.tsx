@@ -59,7 +59,7 @@ const Categories2 = () => {
   return (
     <section
       id="categories"
-      className="relative z-10 mx-auto w-full max-w-[393px] bg-white px-8 pb-4 text-[#1E1E1E] lg:max-w-[1440px] lg:px-4 lg:pb-16"
+      className="relative z-10 mx-auto w-full max-w-[393px] bg-white px-8 pb-4 pt-[50px] text-[#1E1E1E] lg:max-w-[1440px] lg:px-4 lg:pt-0 lg:pb-16"
     >
       <div className="">
         <img
@@ -69,7 +69,7 @@ const Categories2 = () => {
               : ''
           }/images/categories/info.png`}
           alt="logo"
-          className="mx-auto w-[1142px] pl-7"
+          className="mx-auto hidden pl-7 lg:block lg:w-[1142px]"
         />
         <Image
           src={`${
