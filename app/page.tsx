@@ -31,9 +31,9 @@ export default function Home() {
       <RevealWrapper>
         <Hero3 />
       </RevealWrapper>
-      <RevealWrapper>
+      {/* <RevealWrapper>
         <Hero4 />
-      </RevealWrapper>
+      </RevealWrapper> */}
       <RevealWrapper>
         <Techs />
       </RevealWrapper>
@@ -53,7 +53,7 @@ export default function Home() {
       <div ref={tallyFormsRef}>
         <TallyForms />
       </div>
-      <SocialMedia />
+      {/* <SocialMedia /> */}
     </>
   )
 }

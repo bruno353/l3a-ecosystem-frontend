@@ -61,9 +61,31 @@ const Categories2 = () => {
       id="categories"
       className="relative z-10 mx-auto w-full max-w-[393px] bg-white px-8 pb-4 text-[#1E1E1E] lg:max-w-[1440px] lg:px-4 lg:pb-16"
     >
+      <div className="">
+        <img
+          src={`${
+            process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+              ? process.env.NEXT_PUBLIC_BASE_PATH
+              : ''
+          }/images/categories/info.png`}
+          alt="logo"
+          className="mx-auto w-[1142px] pl-7"
+        />
+        <Image
+          src={`${
+            process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+              ? process.env.NEXT_PUBLIC_BASE_PATH
+              : ''
+          }/images/lines/Line3.svg`}
+          alt="logo"
+          width={200}
+          height={50}
+          className="ml-32 hidden w-1 md:ml-[220px] md:w-1 lg:block"
+        />
+      </div>
       <div className="w-full">
         {categories.map((category, index) => {
-          const hasLineSvg = index < categories.length - 1
+          const hasLineSvg = true
 
           return (
             <>
@@ -100,7 +122,7 @@ const Categories2 = () => {
                     alt="logo"
                     width={200}
                     height={50}
-                    className="mt-2 mb-5 ml-32 hidden w-1 md:mb-0 md:mt-0 md:ml-[240px] md:w-1 lg:block"
+                    className="mt-2 mb-5 ml-32 hidden w-1 md:mb-0 md:mt-0 md:ml-[220px] md:w-1 lg:block"
                   />
                 </div>
               ) : null}

@@ -10,12 +10,12 @@ const TallyForms = () => {
 
   return (
     <>
-      <section id="talyforms" className=" bg-white">
-        <div className="container">
-          <h1 className="flex justify-center text-center  text-2xl font-bold leading-tight text-[#1E1E1E] sm:text-4xl sm:leading-tight md:mb-0 md:text-2xl md:leading-tight xl:mb-5 xl:text-[28px]">
+      <section id="talyforms mx-auto" className=" bg-white">
+        <div className="mx-auto pt-[140px] lg:max-w-[1440px] lg:px-[80px] lg:pb-[150px]">
+          <h1 className="flex  text-2xl font-bold leading-tight text-[#1E1E1E] sm:text-4xl sm:leading-tight md:mb-0 md:text-2xl md:leading-tight xl:mb-5 xl:text-[28px]">
             Become a part of the future with L3A's
           </h1>
-          <div className="flex justify-center">
+          <div className="flex">
             {' '}
             {/* Adicionado esta linha */}
             <iframe
