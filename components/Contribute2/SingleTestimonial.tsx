@@ -1,4 +1,4 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 
 interface SingleTestimonialProps {
   title: string
@@ -6,6 +6,8 @@ interface SingleTestimonialProps {
   borderColor: string
   tally: string
   scrollIntoView: any
+  buttonName: string
+  buttonUrl: string
 }
 
 const SingleTestimonial = ({
@@ -14,6 +16,8 @@ const SingleTestimonial = ({
   borderColor,
   tally,
   scrollIntoView,
+  buttonName,
+  buttonUrl,
 }: SingleTestimonialProps) => {
   //   const isCareers = title === 'Careers ->'
   const handleClick = () => {
@@ -37,11 +41,11 @@ const SingleTestimonial = ({
   return (
     <div
       role="button"
-      className={`mx-auto h-[360px] w-[262px] rounded-md bg-gradient-to-tr lg:h-[420px] lg:w-[342px] ${borderColor} p-[1px]`}
+      className={`mx-auto h-[360px] w-[262px] rounded-md bg-gradient-to-tr lg:h-[440px] lg:w-[342px] ${borderColor} p-[1px]`}
     >
       <div
-        className={`flex h-[358px] w-[260px] transform cursor-pointer flex-col items-center rounded-[5px] bg-white px-8 pt-10 pb-7 text-center text-[#1E1E1E] transition-all duration-200 hover:z-20 hover:scale-110 lg:h-[418px] lg:w-[340px] lg:px-5`}
-        onClick={handleClick}
+        className={`flex h-[358px] w-[260px] transform flex-col items-center rounded-[5px] bg-white px-8 pt-10 pb-[20px] text-center text-[#1E1E1E] transition-all duration-200 hover:z-20 hover:scale-110 lg:h-[438px] lg:w-[340px] lg:px-5`}
+        // onClick={handleClick}
       >
         <div className="wow fadeInUp rounded-md" data-wow-delay=".1s">
           <h3 className=" mx-2 mb-2 text-[1.25rem] text-base font-bold leading-none lg:text-2xl">
@@ -51,7 +55,7 @@ const SingleTestimonial = ({
             {description}
           </p>
         </div>
-        <div className="mt-auto flex w-full justify-end">
+        {/* <div className="mt-auto flex w-full justify-end">
           <Image
             src={`${
               process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
@@ -63,6 +67,21 @@ const SingleTestimonial = ({
             height={50}
             className="w-1/6 rounded-md md:w-1/6"
           />
+        </div> */}
+        <div className="mt-auto flex w-full justify-end">
+          <a
+            // target="_blank"
+            // rel="noopener noreferrer"
+            href={buttonUrl}
+            onClick={() => {
+              if (buttonUrl === null) {
+                handleClick()
+              }
+            }}
+            className=" cursor-pointer rounded-[5px] bg-[#0354EC] py-[8.5px] px-[18px] text-[12px] font-bold !leading-[19px] text-white hover:bg-[#0447c5]"
+          >
+            {buttonName}
+          </a>
         </div>
       </div>
     </div>

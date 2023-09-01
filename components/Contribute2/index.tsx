@@ -4,6 +4,8 @@ const testimonialData = [
   {
     id: 1,
     title: 'Team Members',
+    buttonName: 'Join the team',
+    buttonUrl: 'https://www.greenhouse.com/',
     borderColor: 'from-[#dddddd] to-[#FF64DD]',
     tally: 'Team Members',
     description:
@@ -12,6 +14,8 @@ const testimonialData = [
   {
     id: 2,
     title: 'Open Source Developers',
+    buttonName: 'View projects',
+    buttonUrl: 'https://openmesh.vercel.app/openrd',
     borderColor: 'from-[#e0e2f9] to-[#0be040]',
     tally: 'Open Source Developers',
     description:
@@ -20,6 +24,8 @@ const testimonialData = [
   {
     id: 3,
     title: 'Blockchain Protocols, Web3 Startups & DAOs',
+    buttonName: 'Contact',
+    buttonUrl: null,
     borderColor: 'from-[#cfc4ff] to-[#FFCA64]',
     tally: 'Blockchain Protocols, Web3 Startups & DAOs',
     description:
@@ -28,6 +34,8 @@ const testimonialData = [
   {
     id: 4,
     title: 'Open Data Advocates and Academics',
+    buttonName: 'Contact',
+    buttonUrl: null,
     borderColor: 'from-[#dddddd] to-[#FFCA64]',
     tally: 'Open Data Advocates and Academics',
     description:
@@ -36,6 +44,8 @@ const testimonialData = [
   {
     id: 5,
     title: 'Community Members',
+    buttonName: 'Join Discord',
+    buttonUrl: 'https://discord.gg/wYPuxMF7',
     borderColor: 'from-[#dddddd] to-[#FF8181]',
     tally: 'Blockchain Protocol',
     description:
@@ -44,6 +54,8 @@ const testimonialData = [
   {
     id: 6,
     title: 'Partnerships',
+    buttonName: 'Schedule a call',
+    buttonUrl: 'https://calendly.com/kathleen-ragos/30min',
     borderColor: 'from-[#ffc4fe] to-[#0068C9]',
     tally: 'Partnerships',
     description:
@@ -64,6 +76,8 @@ const Contribute = ({ scrollIntoView }) => {
               borderColor={testimonial.borderColor}
               description={testimonial.description}
               scrollIntoView={scrollIntoView}
+              buttonName={testimonial.buttonName}
+              buttonUrl={testimonial.buttonUrl}
             />
           </div>
         ))}
