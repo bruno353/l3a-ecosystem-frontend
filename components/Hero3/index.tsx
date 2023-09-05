@@ -12,7 +12,7 @@ const Hero3 = () => {
             3
           </span>
         </div>
-        <p className="mx-auto mb-4 mt-2 w-[310px] text-xl font-bold tracking-tight md:mb-2 lg:mt-4 lg:w-[850px] lg:text-3xl lg:!leading-[40px] 2xl:text-[1.85rem]">
+        <p className="mx-auto mb-4 mt-2 w-[310px] text-xl font-bold tracking-tight md:mb-2 md:w-[600px] lg:mt-4  lg:w-[850px] lg:!leading-[40px] xl:text-3xl 2xl:text-[1.85rem]">
           <span className="font-medium text-[#6B6B6B]">
             Information asymmetry, a result of this control, has given rise to
             social inequality, scandals, polarization, and corruption. In
@@ -30,7 +30,7 @@ const Hero3 = () => {
           alt="logo"
           width={100}
           height={20}
-          className="mx-auto mt-0 mb-4 hidden h-20 w-1 lg:mb-1 lg:mt-5 lg:block lg:h-52"
+          className="mx-auto mt-0 mb-4 hidden h-20 w-1 md:mb-1 md:mt-5 md:block md:h-52"
         />
         <img
           src={`${

@@ -16,7 +16,7 @@ const Techs = () => {
                   : ''
               }/images/techs/superNode.svg`}
               alt="logo"
-              className="mx-auto mb-2 ml-64 w-[207px] transition-all duration-200 hover:z-20  hover:scale-110"
+              className="mx-auto mb-2 w-[207px] transition-all duration-200 hover:z-20 hover:scale-110   xl:ml-56"
             />
           </div>
         </div>
@@ -48,7 +48,7 @@ const Techs = () => {
                   : ''
               }/images/techs/api.svg`}
               alt="logo"
-              className="mx-auto mb-20 mr-96 w-[154px] transition-all duration-200 hover:z-20 hover:scale-110"
+              className="mx-auto mb-20 w-[154px] transition-all duration-200 hover:z-20 hover:scale-110 xl:mr-96"
             />
           </div>
         </div>

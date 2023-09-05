@@ -17,17 +17,17 @@ const Hero = ({ scrollIntoView }) => {
                 className="wow fadeInUp mx-auto text-center"
                 data-wow-delay=".2s"
               >
-                <div className="text-[35px] font-normal !leading-[40px] -tracking-wider lg:text-[60px] lg:!leading-[80px]">
+                <div className="text-[35px] font-normal !leading-[40px] -tracking-wider lg:text-[40px] xl:text-[60px] xl:!leading-[80px]">
                   Join our ecosystem to build <br />
-                  <span className="text-[40px] font-bold lg:text-[80px]">
+                  <span className="text-[40px] font-bold lg:text-[45px] xl:text-[80px]">
                     open data infrastructure for{' '}
                   </span>{' '}
                   <br />
-                  <span className="text-[40px] font-bold lg:text-[80px]">
+                  <span className="text-[40px] font-bold lg:text-[45px] xl:text-[80px]">
                     without a middleman.
                   </span>
                 </div>
-                <div className="mt-[20px] text-[17px] font-medium -tracking-wider text-[#505050] lg:mt-[35px]  lg:text-[30px] lg:!leading-[36px]">
+                <div className="mt-[20px] text-[17px] font-medium -tracking-wider text-[#505050] lg:mt-[35px] lg:text-[20px]  xl:text-[30px] xl:!leading-[36px]">
                   No matter your role - developer, user, academic, partner - you{' '}
                   <br />
                   have a part to play in Openmesh's mission. Get involved and{' '}
@@ -41,10 +41,10 @@ const Hero = ({ scrollIntoView }) => {
                   Help build the decentralized data infrastructure and standards
                   across Web3
                 </p> */}
-                <div className="mt-[40px] lg:mt-[80px]">
+                <div className="mt-[40px] xl:mt-[80px]">
                   <a
                     onClick={handleClick}
-                    className=" cursor-pointer rounded-[5px] bg-[#0354EC] py-[9.5px] px-[18px] text-[12px] font-bold !leading-[19px] text-white hover:bg-[#0447c5] lg:text-[18px]"
+                    className=" cursor-pointer rounded-[5px] bg-[#0354EC] py-[9.5px] px-[18px] text-[12px] font-bold !leading-[19px] text-white hover:bg-[#0447c5] lg:text-[16px] xl:text-[18px]"
                   >
                     Join the ecosystem
                   </a>
