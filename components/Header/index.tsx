@@ -50,15 +50,14 @@ const Header = () => {
         <div className="mx-auto flex w-full max-w-[1280px] pr-8 2xl:max-w-[1440px] 2xl:px-0">
           <div className="flex w-full items-center justify-between lg:gap-12 2xl:gap-24">
             <Link href="/" className="ml-12">
-              <Image
+              <img
                 src={`${
                   process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
                     ? process.env.NEXT_PUBLIC_BASE_PATH
                     : ''
-                }/images/logo/l3a-logo.svg`}
+                }/images/header/logo.png`}
                 alt="logo"
-                width={200}
-                height={45}
+                className={`mr-[60px] w-[200px]`}
               />
             </Link>
             {/* <ul className="hidden flex-1 items-center gap-16 lg:flex">
