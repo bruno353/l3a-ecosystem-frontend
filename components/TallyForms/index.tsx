@@ -13,7 +13,7 @@ const TallyForms = () => {
       <section id="talyforms mx-auto" className=" bg-white">
         <div className="mx-auto pt-[15px] lg:max-w-[1440px] lg:px-[80px] lg:pt-[140px] lg:pb-[150px]">
           <h1 className="flex  text-center text-2xl font-bold leading-tight text-[#1E1E1E] sm:text-4xl sm:leading-tight md:mb-0 md:justify-center md:text-2xl md:leading-tight lg:justify-start lg:text-start xl:mb-5 xl:text-[28px]">
-            Become a part of the future with L3A's
+            Become a part of the future with Openmesh's
           </h1>
           <div className="flex md:justify-center lg:justify-start ">
             {' '}

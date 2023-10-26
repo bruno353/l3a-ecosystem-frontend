@@ -33,10 +33,10 @@ const Categories = () => {
                 className="mt-2 text-xs  md:mt-3 md:text-sm xl:mt-5 xl:text-lg "
                 title="Meu teste"
               >
-                L3A stores data on a decentralized infrastructure for uncensored
-                access. Users can query, analyze, and visualize data using a
-                web-based application. They can also create custom data feeds,
-                develop products, and gain insights at scale.
+                Openmesh stores data on a decentralized infrastructure for
+                uncensored access. Users can query, analyze, and visualize data
+                using a web-based application. They can also create custom data
+                feeds, develop products, and gain insights at scale.
               </p>
             </div>
             <div className="bottom-4 mt-4 flex w-2/3 justify-between md:absolute md:mt-0">

@@ -24,7 +24,7 @@ const Hero4 = () => {
               </div>
               <p className="text-body-black mx-auto mb-4 mt-4 w-[273px] text-sm font-medium leading-snug tracking-tight text-[#000000] dark:opacity-90 lg:mb-12 lg:mt-8 lg:w-[850px] lg:text-3xl 2xl:text-[2rem]">
                 No matter your role - developer, user, academic, partner - you
-                have a part to play in L3A's mission. Get involved and help
+                have a part to play in Openmesh's mission. Get involved and help
                 shape the future of Web 3.0.
               </p>
             </div>

@@ -13,7 +13,7 @@ const AboutL3A = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-2xl font-semibold leading-tight sm:text-4xl sm:leading-tight md:text-6xl md:leading-tight">
-                  About L3A
+                  About Openmesh
                 </h1>
                 <p className="text-body-black mb-6 text-base font-medium !leading-relaxed  dark:opacity-90 sm:text-lg md:mb-12 md:text-4xl">
                   The forefront of developing open data infrastructure,

@@ -39,7 +39,7 @@ const testimonialData = [
     borderColor: 'from-[#dddddd] to-[#FFCA64]',
     tally: 'Open Data Advocates and Academics',
     description:
-      'Help us build ethical and responsible technological frameworks. L3A believes in the importance of public infrastructure that is built and maintained in the best interest of humanity. We also offer research grants for deep academic research on tech and security.',
+      'Help us build ethical and responsible technological frameworks. Openmesh believes in the importance of public infrastructure that is built and maintained in the best interest of humanity. We also offer research grants for deep academic research on tech and security.',
   },
   {
     id: 5,

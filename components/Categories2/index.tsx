@@ -10,7 +10,7 @@ const Categories2 = () => {
           ? process.env.NEXT_PUBLIC_BASE_PATH
           : ''
       }/images/categories/l3aCore.svg`,
-      title: 'L3A Core',
+      title: 'Openmesh',
       description:
         'Join us as we expand our goal of Deeplink to advance the smart contract ecosystems. The Deeplink developer toolkit will allow developers and data scientists to build, train, and deploy data models. Join us as we expand our goal of Deeplink to advance the smart contract ecosystems.The Deeplink developer toolkit will allow developers and data scientists to build, train, and deploy data models. Join us as we expand our goal of Deeplink to advance the smart contract ecosystems.',
     },
@@ -30,7 +30,7 @@ const Categories2 = () => {
           ? process.env.NEXT_PUBLIC_BASE_PATH
           : ''
       }/images/categories/infrastructure.svg`,
-      title: 'L3A Core',
+      title: 'Openmesh',
       description:
         'Join us as we expand our goal of Deeplink to advance the smart contract ecosystems. ​ The Deeplink developer toolkit will allow developers and data scientists to build, train, and deploy data models.',
     },
@@ -40,7 +40,7 @@ const Categories2 = () => {
           ? process.env.NEXT_PUBLIC_BASE_PATH
           : ''
       }/images/categories/hardware.svg`,
-      title: 'L3A Core',
+      title: 'Openmesh',
       description:
         'Join us as we expand our goal of Deeplink to advance the smart contract ecosystems. The Deeplink developer toolkit will allow developers and data scientists to build, train, and deploy data models. Join us as we expand our goal of Deeplink to advance the smart contract ecosystems. The Deeplink developer toolkit will allow developers and data scientists to build, train, and deploy data models.',
     },
@@ -50,7 +50,7 @@ const Categories2 = () => {
           ? process.env.NEXT_PUBLIC_BASE_PATH
           : ''
       }/images/categories/code.svg`,
-      title: 'L3A Core',
+      title: 'Openmesh',
       description:
         'Join us as we expand our goal of Deeplink to advance the smart contract ecosystems. The Deeplink developer toolkit will allow developers and data scientists to build, train, and deploy data models. Join us as we expand our goal of Deeplink to advance the smart contract ecosystems. The Deeplink developer toolkit will allow developers and data scientists to build, train, and deploy data models.',
     },

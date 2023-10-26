@@ -20,7 +20,7 @@ const testimonialData = [
     title: 'Partners',
     tally: 'Others',
     description:
-      'Collaborate by using L3A data infrastructure to help you and unlock the full potential of your industry',
+      'Collaborate by using Openmesh data infrastructure to help you and unlock the full potential of your industry',
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const testimonialData = [
     title: 'Protocols',
     tally: 'Blockchain Protocol',
     description:
-      'Harness the power of L3A infrastructure and integrate it into your ecosystem',
+      'Harness the power of Openmesh infrastructure and integrate it into your ecosystem',
   },
   {
     id: 6,
@@ -61,7 +61,7 @@ const testimonialData = [
     id: 9,
     title: 'Careers ->',
     description:
-      'Apply for open roles within L3A and be part of a vibrant community dedicated to driving positive change',
+      'Apply for open roles within Openmesh and be part of a vibrant community dedicated to driving positive change',
   },
 ]
 
